@@ -33,9 +33,9 @@ spec:
             - name: OPENSCAP_IMAGE
               value: "quay.io/jhrozek/openscap-ocp:latest"
             - name: LOG_COLLECTOR_IMAGE
-              value: "quay.io/compliance-operator/resultscollector:latest"
+              value: "quay.io/compliance-operator/resultscollector"
             - name: RESULT_SERVER_IMAGE
-              value: "quay.io/compliance-operator/resultserver:latest"
+              value: "quay.io/compliance-operator/resultserver"
             - name: REMEDIATION_AGGREGATOR_IMAGE
               value: "quay.io/compliance-operator/remediation-aggregator:latest"
       nodeSelector:

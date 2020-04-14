@@ -34,7 +34,6 @@ type ComplianceCheckSpec struct {
 // +k8s:deepcopy-gen:interfaces=k8s.io/apimachinery/pkg/runtime.Object
 
 // ComplianceCheck is the Schema for the compliancechecks API
-// +kubebuilder:subresource:status
 // +kubebuilder:resource:path=compliancechecks,scope=Namespaced
 // +kubebuilder:printcolumn:name="Result",type="string",JSONPath=`.spec.result`
 type ComplianceCheck struct {

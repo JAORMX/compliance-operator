@@ -36,7 +36,7 @@ type ComplianceCheckSpec struct {
 // ComplianceCheck is the Schema for the compliancechecks API
 // +kubebuilder:subresource:status
 // +kubebuilder:resource:path=compliancechecks,scope=Namespaced
-// +kubebuilder:printcolumn:name="Result",type="string",JSONPath=`.spec.Result`
+// +kubebuilder:printcolumn:name="Result",type="string",JSONPath=`.spec.result`
 type ComplianceCheck struct {
 	metav1.TypeMeta   `json:",inline"`
 	metav1.ObjectMeta `json:"metadata,omitempty"`
